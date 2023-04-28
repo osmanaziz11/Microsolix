@@ -33,7 +33,7 @@ const Home = () => {
   return (
     <>
       {/* Header + Hero  */}
-      {/* <Hero /> */}
+      <Hero />
       {/* Header + Hero  */}
 
       {/* Services  */}
