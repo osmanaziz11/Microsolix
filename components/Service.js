@@ -11,7 +11,7 @@ const Service = ({ details }) => {
   const { title, desc, image, id } = details;
   return (
     <>
-      <div className='className="w-full  h-full flex flex-col md:flex-row mt-10 mb-32'>
+      <div className='className="w-full  h-full flex flex-col md:flex-row mt-10 mb-'>
         <div className="w-full md:w-1/2 h-full flex justify-center items-start flex-col sm:p-10 xsm:p-6 p-3 pt-0 sm:mt-1 mt-1 ">
           <div className="">
             <h4

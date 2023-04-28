@@ -1,5 +1,7 @@
 import { Manrope } from 'next/font/google';
 import Head from 'next/head';
+import Image from 'next/image';
+import Rating from '../public/rating.png';
 
 const manrope = Manrope({
   subsets: ['latin'],
@@ -21,11 +23,12 @@ const Hero = () => {
             Software Development Experts
           </h1>
           <p
-            class={` ${manrope.className} mb-8 text-lg font-normal  lg:text-xl  xl:px-[350px] my-10 text-[#ababae]`}
+            class={` ${manrope.className} mb-8 text-lg font-normal  lg:text-xl  xl:px-[250px] my-10 text-[#ababae] flex`}
           >
             We are experts with providing the widest range of IT services and
             solutions for growing your business.
           </p>
+
           <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 my-16">
             <a
               href="#"
